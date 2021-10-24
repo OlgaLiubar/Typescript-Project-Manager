@@ -1,7 +1,6 @@
 //Project Type
 
-namespace App {
-  export enum ProjectStatus {
+export enum ProjectStatus {
   Active,
   Finished
 }
@@ -14,5 +13,4 @@ export class Project {
     public people: number,
     public status: ProjectStatus
   ) { }
-}
 }
